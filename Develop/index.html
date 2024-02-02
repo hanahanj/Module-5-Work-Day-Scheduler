@@ -21,7 +21,7 @@
     <p id="currentDay" class="lead"></p>
     <p id="currentTime" class="lead"></p>
   </header>
-  <div class="container-fluid px-5">
+  <div data-linknumber="0" class="container-fluid px-5">
     <!-- Use class for "past", "present", and "future" to apply styles to the
       time-block divs accordingly. The javascript will need to do this by
       adding/removing these classes on each div by comparing the hour in the
@@ -33,7 +33,7 @@
       -->
 
     <!-- Example of a past time block. The "past" class adds a gray background color. -->
-    <div id="9" class=" row time-block past">
+    <div id="9" data-linknumber="9" class=" row time-block past">
       <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -42,7 +42,7 @@
     </div>
 
     <!-- Example of a present time block. The "present" class adds a red background color. -->
-    <div id="10" class=" 10 row time-block present">
+    <div id="10" data-linknumber="10" class=" 10 row time-block present">
       <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -51,7 +51,7 @@
     </div>
 
     <!-- Example of a future time block. The "future" class adds a green background color. -->
-    <div id="11" class=" 11 row time-block future">
+    <div id="11" data-linknumber="11" class=" 11 row time-block future">
       <div class="col-2 col-md-1 hour text-center py-3">11AM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -60,7 +60,7 @@
     </div>
 
 
-    <div id="12" class=" 12 row time-block future">
+    <div id="12" data-linknumber="12" class=" 12 row time-block future">
       <div class="col-2 col-md-1 hour text-center py-3">12PM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -69,7 +69,7 @@
     </div>
 
 
-    <div id="1" class=" 1 row time-block future">
+    <div id="1" data-linknumber="13" class=" 1 row time-block future">
       <div class="col-2 col-md-1 hour text-center py-3">1PM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -78,7 +78,7 @@
     </div>
 
 
-    <div id="2" class=" 2 row time-block future">
+    <div id="2" data-linknumber="14" class=" 2 row time-block future">
       <div class="col-2 col-md-1 hour text-center py-3">2PM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -87,7 +87,7 @@
     </div>
 
 
-    <div id="3" class=" 3 row time-block future">
+    <div id="3" data-linknumber="15" class=" 3 row time-block future">
       <div class="col-2 col-md-1 hour text-center py-3">3PM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -96,7 +96,7 @@
     </div>
 
 
-    <div id="4" class=" 4 row time-block future">
+    <div id="4" data-linknumber="16" class=" 4 row time-block future">
       <div class="col-2 col-md-1 hour text-center py-3">4PM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -105,7 +105,7 @@
     </div>
 
 
-    <div id="5" class=" 5 row time-block future">
+    <div id="5" data-linknumber="17" class=" 5 row time-block future">
       <div class="col-2 col-md-1 hour text-center py-3">5PM</div>
       <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
       <button class="btn saveBtn col-2 col-md-1" aria-label="save">

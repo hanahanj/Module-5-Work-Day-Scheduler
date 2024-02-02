@@ -31,6 +31,11 @@ textarea {
 }
 
 .past {
+  background-color: #ffffff;
+  color: white;
+}
+
+.past {
   background-color: #d3d3d3;
   color: white;
 }
