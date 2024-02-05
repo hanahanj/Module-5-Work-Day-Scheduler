@@ -26,3 +26,7 @@ THEN the saved events persist
 
 ![Link] https://hanahanj.github.io/Module-5-Work-Day-Scheduler/
 ![Repo]: https://github.com/hanahanj/Module-5-Work-Day-Scheduler
+
+## Note
+To complete this assignment I used readily available online resources like Stack Overflow, jQuery API, etc. I also attended a tutoring session to recieve some help.
+
