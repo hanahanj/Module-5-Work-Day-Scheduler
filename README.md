@@ -22,7 +22,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-![Screencap](https://github.com/hanahanj/Module-5-Work-Day-Scheduler/blob/main/Mod5-Screencap.png) 
+![Screencap](https://github.com/hanahanj/Module-5-Work-Day-Scheduler/blob/main/Assets/Mod5-Screencap.png) 
 
-Live Link: https://hanahanj.github.io/Module-5-Work-Day-Scheduler/
-Repo Link: https://github.com/hanahanj/Module-5-Work-Day-Scheduler
+![Link] https://hanahanj.github.io/Module-5-Work-Day-Scheduler/
+![Repo]: https://github.com/hanahanj/Module-5-Work-Day-Scheduler
